@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>iCarry {{ env('APP_ENV') == 'local' ? '測試用' : '' }}商家後台管理系統 - 商家管理 | 登入</title>
+    <title>{{ env('APP_ENV') == 'local' ? '測試用' : '' }}商家後台管理系統 - 商家管理 | 登入</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ asset('vendor/Font-Awesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css') }}">

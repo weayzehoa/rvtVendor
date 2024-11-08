@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>iCarry 商家後台管理系統 - @yield('title')</title>
+    <title>商家後台管理系統 - @yield('title')</title>
     {{-- 全站共用的CSS --}}
     @include('vendor.layouts.css')
     {{-- 頁面上有需要使用時才載入的CSS --}}

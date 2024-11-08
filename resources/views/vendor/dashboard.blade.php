@@ -28,7 +28,7 @@
             <div class="col-12">
                 <div class="card bg-light-yellow">
                     <div class="card-header">
-                        <h3 class="card-title text-danger text-bold">【iCarry 公告】 因應公司政策調整，自2020年12月起，貨款結帳日更改為每月25日。造成不便，敬請見諒。</h3>
+                        <h3 class="card-title text-danger text-bold">【公告】 因應公司政策調整，自2020年12月起，貨款結帳日更改為每月25日。造成不便，敬請見諒。</h3>
                         <div class="card-tools">
                             <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                             </button>

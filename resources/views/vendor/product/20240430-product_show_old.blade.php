@@ -61,7 +61,7 @@
                                 <div class="tab-content">
                                     <div class="active tab-pane" id="chinese">
                                         <div class="mb-2">
-                                            <span class="text-danger text-bold">@if($viewOnly == 1)目前為查看模式，無法編輯修改，請重新點擊 <a href="{{ route('vendor.product.show',$product->id) }}">這裡</a> 轉為編輯模式。 @endif @if(isset($product))商品狀態為 上架中、補貨中無法修改資料。@else 注意!! 商品名稱、單價、毛重、淨重及內容(規格)建立後將無法修改。若需修改，請與 iCarry 聯繫。@endif</span><br>
+                                            <span class="text-danger text-bold">@if($viewOnly == 1)目前為查看模式，無法編輯修改，請重新點擊 <a href="{{ route('vendor.product.show',$product->id) }}">這裡</a> 轉為編輯模式。 @endif @if(isset($product))商品狀態為 上架中、補貨中無法修改資料。@else 注意!! 商品名稱、單價、毛重、淨重及內容(規格)建立後將無法修改。若需修改，請與 聯繫。@endif</span><br>
                                         </div>
                                         @if(isset($product) && !isset($copy))
                                         <form id="myform" action="{{ route('vendor.product.update', $product->id) }}" method="POST" enctype="multipart/form-data">

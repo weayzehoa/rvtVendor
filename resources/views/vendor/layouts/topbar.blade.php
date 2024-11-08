@@ -1,5 +1,5 @@
 <nav id="topbar" class="main-header navbar navbar-expand navbar-dark bg-navy">
-    <span class="ml-3">iCarry - 台灣伴手禮，交給「我來寄」商家後台管理系統 {{ env('APP_VERSION') }}</span>
+    {{-- <span class="ml-3">- 台灣伴手禮，交給「我來寄」商家後台管理系統 {{ env('APP_VERSION') }}</span> --}}
     <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">

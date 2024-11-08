@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>iCarry {{ env('APP_ENV') == 'local' ? '測試用' : '' }}商家後台管理系統 - 商家管理 | 登入</title>
+    <title>{{ env('APP_ENV') == 'local' ? '測試用' : '' }}商家後台管理系統 - 商家管理 | 登入</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ asset('vendor/Font-Awesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css') }}">
@@ -25,7 +25,7 @@
     @include('vendor.layouts.alert_message')
     <div class="login-box">
         <div class="text-lg text-center mb-2">
-            <a href="javascript:" class="text-white"><b>@if(env('APP_ENV') == 'local')開發團隊測試用<br>@endif iCarry 商家後台管理系統</b></a>
+            <a href="javascript:" class="text-white"><b>@if(env('APP_ENV') == 'local')開發團隊測試用<br>@endif 商家後台管理系統</b></a>
         </div>
         <div class="card">
             <div class="card-body login-card-body">
